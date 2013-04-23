@@ -35,7 +35,7 @@ public class MyActivity extends Activity
         }).setNegativeButton("정보 보기", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.flneapps.co.kr/download.html")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.flneapps.co.kr/download.html?utm_source=android&utm_medium=app&utm_campaign=android")));
                 finish();
             }
         }).create();
