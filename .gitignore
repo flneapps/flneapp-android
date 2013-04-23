@@ -18,5 +18,8 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# Intellij IDEA files
 .idea/
-flneapp-android.iml
+*.iml
+atlassian-ide-plugin.xml
