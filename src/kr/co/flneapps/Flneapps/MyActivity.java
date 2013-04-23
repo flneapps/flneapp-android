@@ -1,4 +1,4 @@
-package com.example.FakeFineApp;
+package kr.co.flneapps.Flneapps;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
+import kr.co.flneapps.Flneapps.R;
 
 public class MyActivity extends Activity
 {
