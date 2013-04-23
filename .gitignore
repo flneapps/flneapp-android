@@ -8,6 +8,9 @@
 # Java class files
 *.class
 
+# Proguard files
+proguard_logs
+
 # generated files
 bin/
 gen/
