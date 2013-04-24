@@ -20,7 +20,7 @@ public class MyActivity extends Activity
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.flneapps.co.kr/download.html?utm_source=android&utm_medium=app&utm_campaign=android")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.flneapps.co.kr/download.html?utm_source=android&utm_medium=app&utm_campaign=android")));
             }
         }, 2000);
     }
